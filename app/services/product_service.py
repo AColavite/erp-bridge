@@ -39,3 +39,4 @@ def create_product(product_data: ProductCreate):
     }
 
     return erp_client.create_product(payload)
+
